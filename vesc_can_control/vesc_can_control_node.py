@@ -6,7 +6,7 @@ from rclpy.node import Node
 from rclpy.qos import QoSProfile
 from rclpy.exceptions import ParameterNotDeclaredException
 from rcl_interfaces.msg import Parameter, ParameterType, ParameterDescriptor
-from synapse_msgs.msg import Actuators
+from actuator_msgs.msg import Actuators
 from can_msgs.msg import Frame
 
 class VESCCANControl(Node):
